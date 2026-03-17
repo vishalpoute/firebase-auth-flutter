@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "603114195895",
+    "project_id": "diary-app-vishal",
+    "storage_bucket": "diary-app-vishal.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603114195895:android:ed043e80a7f22b08cbb632",
+        "android_client_info": {
+          "package_name": "com.vishal.diaryapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1SB71lW1XNEujMvZTfPELhfCkxpgu_Ug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
