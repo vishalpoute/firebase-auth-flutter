@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDwt4Y7WO58-tJNrm_2AWR5r_w_Zcfpm4g',
+    apiKey: String.fromEnvironment('FIREBASE_WEB_API_KEY'),
     appId: '1:603114195895:web:9060a047506e3d1fcbb632',
     messagingSenderId: '603114195895',
     projectId: 'diary-app-vishal',
@@ -50,7 +50,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyB1SB71lW1XNEujMvZTfPELhfCkxpgu_Ug',
+    apiKey: String.fromEnvironment('FIREBASE_ANDROID_API_KEY'),
     appId: '1:603114195895:android:ed043e80a7f22b08cbb632',
     messagingSenderId: '603114195895',
     projectId: 'diary-app-vishal',
@@ -58,7 +58,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDMuZ1C4GJOFX9b0FCBhPAFK5f0l8tdJf4',
+    apiKey: String.fromEnvironment('FIREBASE_IOS_API_KEY'),
     appId: '1:603114195895:ios:098877eb720cc64dcbb632',
     messagingSenderId: '603114195895',
     projectId: 'diary-app-vishal',
@@ -67,7 +67,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDMuZ1C4GJOFX9b0FCBhPAFK5f0l8tdJf4',
+    apiKey: String.fromEnvironment('FIREBASE_MACOS_API_KEY'),
     appId: '1:603114195895:ios:224ffb8b92087b97cbb632',
     messagingSenderId: '603114195895',
     projectId: 'diary-app-vishal',
@@ -76,7 +76,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDwt4Y7WO58-tJNrm_2AWR5r_w_Zcfpm4g',
+    apiKey: String.fromEnvironment('FIREBASE_WINDOWS_API_KEY'),
     appId: '1:603114195895:web:e1a4f488fbb8f75acbb632',
     messagingSenderId: '603114195895',
     projectId: 'diary-app-vishal',
